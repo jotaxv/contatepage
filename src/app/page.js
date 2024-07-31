@@ -4,7 +4,7 @@ import Input from "postcss/lib/input";
 
 export default function Home() {
   return (
-    <main className="m-0 p-0 flex items-center justify-center bg-green-100 h-[100vh]">
+    <main className="m-0 p-0 flex items-center justify-center bg-green-100 h-[100%]">
       <div className="bg-white flex justify-center w-[580px] p-[30px] rounded-[10px] flex-col">
         <h1 className="font-[600] text-[22px] mb-[20px]">Contact Us</h1>
         <div className="flex flex-row gap-5 m-[12px]">
