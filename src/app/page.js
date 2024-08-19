@@ -8,11 +8,15 @@ export default function Home() {
     <main id="tantoFaz" className="m-0 flex items-center justify-center bg-green-200 p-[10px] ">
       <div className="bg-white flex justify-center w-[390px] p-[15px] rounded-[12px] flex-col lg:w-[690px]">
         <h1 className="font-[600] text-[35px] mb-[20px]">Contact Us</h1>
-        <div className="flex flex-col sm:flex-row sm:gap-4 ">
+        <div className="flex flex-col sm:flex-row sm:gap-4">
+    <main className="m-0 p-0 flex items-center justify-center bg-green-100 h-[100%]">
+      <div className="bg-white flex justify-center w-[580px] p-[30px] rounded-[10px] flex-col">
+        <h1 className="font-[600] text-[22px] mb-[20px]">Contact Us</h1>
+        <div className="flex flex-row gap-5 m-[12px]">
           <div>
             <p className="pb-[10px] pt-[10px] text-[17px] ">First Name *</p>
             <input
-              className="bg-gray-100 border border-gray-400 rounded-[8px] h-[60px] w-[100%] px-[16px] lg:h-[50px] lg:w-[320px]"
+            className="bg-gray-100 border border-gray-400 rounded-[8px] h-[60px] w-[100%] px-[16px] lg:h-[50px] lg:w-[320px]"
               type="text"
             ></input>
           </div>
@@ -31,7 +35,7 @@ export default function Home() {
             type="email"
           ></input>
         </div>
-
+    </main>
         <div>
           <p className=" pb-[10px] pt-[10px] text-[17px] ">Query Type *</p>
           <div className="flex flex-col gap-3">
