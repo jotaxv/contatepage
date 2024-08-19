@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import style from "./page.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -9,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" classname="bg-green-200">
       <body className={inter.className}>{children}</body>
     </html>
   );
