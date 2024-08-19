@@ -9,10 +9,8 @@ export default function Home() {
       <div className="bg-white flex justify-center w-[390px] p-[15px] rounded-[12px] flex-col lg:w-[690px]">
         <h1 className="font-[600] text-[35px] mb-[20px]">Contact Us</h1>
         <div className="flex flex-col sm:flex-row sm:gap-4">
-    <main className="m-0 p-0 flex items-center justify-center bg-green-100 h-[100%]">
-      <div className="bg-white flex justify-center w-[580px] p-[30px] rounded-[10px] flex-col">
-        <h1 className="font-[600] text-[22px] mb-[20px]">Contact Us</h1>
-        <div className="flex flex-row gap-5 m-[12px]">
+      </div>  
+        <div className="md:flex md:flex-row md:gap-5 m-[0px]">
           <div>
             <p className="pb-[10px] pt-[10px] text-[17px] ">First Name *</p>
             <input
@@ -31,11 +29,11 @@ export default function Home() {
         <div className="grid">
           <p className=" pb-[10px] pt-[10px] text-[17px] ">Email Address *</p>
           <input
-            className="bg-gray-100 border border-gray-400 rounded-[8px] h-[60px] w-[100%] lg:h-[50px] lg:w-[100%]" 
+            className="bg-gray-100 border p-4 border-gray-400 rounded-[8px] h-[60px] w-[100%] lg:h-[50px] lg:w-[100%]" 
             type="email"
           ></input>
         </div>
-    </main>
+
         <div>
           <p className=" pb-[10px] pt-[10px] text-[17px] ">Query Type *</p>
           <div className="flex flex-col gap-3">
@@ -52,7 +50,7 @@ export default function Home() {
 
         <div>
           <p className=" pb-[10px] pt-[10px] text-[17px] ">Message *</p>
-          <textarea className="bg-gray-100 border border-gray-400 resize-none rounded-[8px] h-[200px] w-[100%] p-1 pl-2  lg:h-[100px] lg:w-[100%]"></textarea>
+          <textarea className="bg-gray-100 border border-gray-400 resize-none rounded-[8px] h-[200px] w-[100%] p-3 pl-3  lg:h-[100px] lg:w-[100%]"></textarea>
         </div>
 
         <div className="flex gap-4 items-center m-[12px]">
